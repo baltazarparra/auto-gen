@@ -6,10 +6,27 @@ module.exports = function (plop) {
             name: 'name',
             message: 'component name please'
         }],
-        actions: [{
-            type: 'add',
-            path: '../components/{{pascalCase name}}/index.tsx',
-            templateFile: 'templates/index.tsx.hbs'
-        }]
+        actions: [
+            {
+                type: 'add',
+                path: '../components/{{pascalCase name}}/index.tsx',
+                templateFile: 'templates/index.tsx.hbs'
+            },
+            {
+                type: 'add',
+                path: '../components/{{pascalCase name}}/stories.tsx',
+                templateFile: 'templates/stories.tsx.hbs'
+            },
+            {
+                type: 'add',
+                path: '../components/{{pascalCase name}}/styles.ts',
+                templateFile: 'templates/styles.ts.hbs'
+            },
+            {
+                type: 'add',
+                path: '../components/{{pascalCase name}}/test.tsx',
+                templateFile: 'templates/test.tsx.hbs'
+            }
+        ]
     });
 };
