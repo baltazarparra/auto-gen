@@ -1,0 +1,23 @@
+{
+  "name": "auto-gen",
+  "version": "1.0.0",
+  "description": "Auto genarate components files",
+  "main": "index.js",
+  "scripts": {
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baltazarparra/auto-gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baltazarparra/auto-gen/issues"
+  },
+  "homepage": "https://github.com/baltazarparra/auto-gen#readme",
+  "devDependencies": {
+    "plop": "^2.7.4"
+  }
+}
