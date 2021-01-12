@@ -1,4 +1,4 @@
-# auto-gen
+# :robot: auto-gen
 
 Auto generate components files
 
