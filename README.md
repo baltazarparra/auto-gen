@@ -1,2 +1,17 @@
 # auto-gen
-Auto genarate components files
+
+Auto generate components files
+
+# install and run
+
+```
+yarn
+```
+
+yarn generate ${ComponentName}
+Ex.
+
+```
+yarn generate button
+```
+
