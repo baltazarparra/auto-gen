@@ -9,6 +9,7 @@ yarn
 ```
 
 yarn generate ${ComponentName}
+
 Ex.
 
 ```
